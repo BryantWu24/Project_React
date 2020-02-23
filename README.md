@@ -69,6 +69,11 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 
 ### how to install semantic-ui-react
+
 1.Open Terminal and input "npm i semantic-ui-react --save " and " npm i semantic-ui-caa --save " 
+
 2.Open src/index.js and input "import 'semantic-ui-css/semantic.min.css';"
 
+### how to install react-redux
+
+1.Open Terminal and input "npm i react-redux --save" and " npm i redux --save"
