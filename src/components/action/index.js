@@ -4,3 +4,10 @@ export const handleTextInput = (val) => {
         input: val.target.value
     }
 }
+
+export const handleMenuHeaderItem = (val) => {
+    return {
+        type: 'HANDLE_MENUHEADER_ITEM',
+        item:val
+    }
+}

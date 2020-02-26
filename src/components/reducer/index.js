@@ -1,5 +1,6 @@
 const initState = {
-    handleTextInput:''
+    handleTextInput: '',
+    handleMenuHeaderItem:'HomePage',
 }
 
 const Reducer = (state = initState, action) => {
@@ -7,9 +8,13 @@ const Reducer = (state = initState, action) => {
 
         case 'HANDLE_TEXT_INPUT':
             return Object.assign({}, state, {
-                handleTextInput:action.input
+                handleTextInput: action.input
             })
 
+        case 'HANDLE_MENUHEADER_ITEM':
+            return Object.assign({}, state, {
+                handleMenuHeaderItem: action.item
+            })
 
         default:
             return state
