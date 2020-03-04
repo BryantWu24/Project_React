@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Carousel_1 from './img/01.jpg';
-import Carousel_2 from './img/02.jpg';
-import Carousel_3 from './img/03.jpg';
-import Carousel_4 from './img/04.jpg';
-import Carousel_5 from './img/05.jpg';
-import Carousel_6 from './img/06.jpg';
-import Carousel_7 from './img/07.jpg';
+import Carousel_1 from './img/CS_01.jpg';
+import Carousel_2 from './img/CS_02.jpg';
+import Carousel_3 from './img/CS_03.jpg';
+import Carousel_4 from './img/CS_04.jpg';
+import Carousel_5 from './img/CS_05.jpg';
+import Carousel_6 from './img/CS_06.jpg';
+import Carousel_7 from './img/CS_07.jpg';
 import {connect} from 'react-redux';
 import {
 } from '../action';

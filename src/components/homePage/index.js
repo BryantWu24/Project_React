@@ -1,9 +1,9 @@
 import React from 'react';
 import { Grid, } from 'semantic-ui-react';
 import CarouselComponent from './carousel';
-
+import BreadcrumbComponet from './breadcrumb';
 import MenuHeader from '../menu/index';
-
+import Content from '../homePage/content';
 function HomePage() {
   return (
     <Grid>
@@ -19,12 +19,18 @@ function HomePage() {
 </div>
 </Grid.Column>
     </Grid.Row>
-     {/* <Grid.Row style={{padding:'0 0'}}>
-         <Grid.Column width={3} style={{height:'95VH',borderStyle:'solid'}}>
-        
-         </Grid.Column>
-         <Grid.Column width={13}></Grid.Column>
-     </Grid.Row> */}
+    <Grid.Row>
+        <Grid.Column width={3}></Grid.Column>
+        <Grid.Column width={10}>
+           <BreadcrumbComponet/>
+        </Grid.Column>
+        <Grid.Column width={3}></Grid.Column>
+    </Grid.Row>
+    <Grid.Row>
+    <Grid.Column width={16}>
+    <Content/>
+    </Grid.Column>
+    </Grid.Row>
   </Grid>
   );
 }
