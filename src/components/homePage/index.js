@@ -4,11 +4,12 @@ import CarouselComponent from './carousel';
 import BreadcrumbComponet from './breadcrumb';
 import MenuHeader from '../menu/index';
 import Content from '../homePage/content';
+import Footer from '../homePage/footer'
 
 class HomePage extends Component {
     render() {
         return (
-            <Grid>
+            <Grid style={{width:'100%',height:'100px',margin:'0 0'}}>
                 <Grid.Row style={{}}>
                     <Grid.Column width={16} >
                         <MenuHeader />
@@ -31,6 +32,11 @@ class HomePage extends Component {
                 <Grid.Row>
                     <Grid.Column width={16}>
                         <Content />
+                    </Grid.Column>
+                </Grid.Row>
+                <Grid.Row>
+                    <Grid.Column width={16} >
+                    <Footer/>
                     </Grid.Column>
                 </Grid.Row>
             </Grid>
