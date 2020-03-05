@@ -1,6 +1,6 @@
 const initState = {
     handleTextInput: '',
-    handleMenuHeaderItem:'HomePage',
+    handleMenuHeaderItem: 'HomePage',
 }
 
 const Reducer = (state = initState, action) => {

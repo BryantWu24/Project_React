@@ -8,6 +8,6 @@ export const handleTextInput = (val) => {
 export const handleMenuHeaderItem = (val) => {
     return {
         type: 'HANDLE_MENUHEADER_ITEM',
-        item:val
+        item: val
     }
 }
