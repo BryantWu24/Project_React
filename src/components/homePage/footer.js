@@ -4,7 +4,7 @@ import { Segment } from 'semantic-ui-react'
 class FooterComponent extends Component {
     render() {
         return (
-            <Segment inverted style={{height:'200px'}} >Footer content.</Segment>
+            <Segment inverted style={{ height: '200px' }} >Footer content.</Segment>
         );
     }
 }

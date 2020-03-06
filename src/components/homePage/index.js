@@ -2,19 +2,13 @@ import React, { Component } from 'react';
 import { Grid, } from 'semantic-ui-react';
 import CarouselComponent from './carousel';
 import BreadcrumbComponet from './breadcrumb';
-import MenuHeader from '../menu/index';
 import Content from '../homePage/content';
 import Footer from '../homePage/footer'
 
 class HomePage extends Component {
     render() {
         return (
-            <Grid style={{width:'100%',height:'100px',margin:'0 0'}}>
-                <Grid.Row style={{}}>
-                    <Grid.Column width={16} >
-                        <MenuHeader />
-                    </Grid.Column>
-                </Grid.Row>
+            <Grid style={{ width: '100%', height: '100px', margin: '0 0' }}>
                 <Grid.Row>
                     <Grid.Column width={16} >
                         <div style={{ display: 'flex', padding: '30px', justifyContent: 'center', alignItems: 'center', backgroundColor: 'black' }}>
@@ -36,7 +30,7 @@ class HomePage extends Component {
                 </Grid.Row>
                 <Grid.Row>
                     <Grid.Column width={16} >
-                    <Footer/>
+                        <Footer />
                     </Grid.Column>
                 </Grid.Row>
             </Grid>
