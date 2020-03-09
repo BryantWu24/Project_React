@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Grid, } from 'semantic-ui-react';
 import CarouselComponent from './carousel';
 import BreadcrumbComponet from './breadcrumb';
-import Content from '../homePage/content';
-import Footer from '../homePage/footer'
+import Content from './content';
+import Footer from  './footer'
 
 class HomePage extends Component {
     render() {

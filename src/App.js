@@ -2,7 +2,7 @@ import React from 'react';
 import { createStore } from 'redux'
 import { Provider } from 'react-redux'
 import Reducer from './components/reducer/index'
-import MainIndex from './components/index';
+import MainIndex from './pages/index';
 import {Grid} from 'semantic-ui-react';
 
 

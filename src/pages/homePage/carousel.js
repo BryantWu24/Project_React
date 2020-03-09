@@ -10,7 +10,7 @@ import Carousel_6 from './img/CS_06.jpg';
 import Carousel_7 from './img/CS_07.jpg';
 import { connect } from 'react-redux';
 import {
-} from '../action';
+} from '../../components/action';
 
 
 class MenuHeader extends Component {

@@ -2,14 +2,14 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux';
 import {
     handleMenuHeaderItem
-} from '../action';
+} from '../../components/action';
 
 
-class TravelCreate extends Component {
+class TravelPage extends Component {
     render() {
         return (
-            <div>
-                TRAVEL CREATE!!
+         <div>
+             TRAVEL INDEX!!
          </div>
         );
     }
@@ -29,4 +29,4 @@ const mapDispatchToProps = (dispatch) => {
     }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(TravelCreate)
+export default connect(mapStateToProps, mapDispatchToProps)(TravelPage)

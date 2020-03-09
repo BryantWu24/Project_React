@@ -3,7 +3,7 @@ import { Menu, Icon, Grid } from 'semantic-ui-react'
 import { connect } from 'react-redux';
 import {
     handleMenuHeaderItem
-} from './action';
+} from '../components/action';
 import HomePage from './homePage/index';
 import TravelCreate from './travelCreate/index';
 import TravelPage from './travelPage/index';
@@ -26,13 +26,13 @@ class MainIndex extends Component {
                                 <Link to="/"> Home Page</Link>
                             </Menu.Item>
                             <Menu.Item
-                                active={this.props.menuItem === 'travelBlog'}
-                                onClick={() => { this.props.handleMenuItem('travelBlog') }}>
+                                active={this.props.menuItem === 'travelCreate'}
+                                onClick={() => { this.props.handleMenuItem('travelCreate') }}>
                                 <Link to="/TravelCreate"> Travel Create</Link>
                             </Menu.Item>
                             <Menu.Item
-                                active={this.props.menuItem === 'travelBlog'}
-                                onClick={() => { this.props.handleMenuItem('travelBlog') }}>
+                                active={this.props.menuItem === 'travelPage'}
+                                onClick={() => { this.props.handleMenuItem('travelPage') }}>
                                 <Link to="/TravelPage"> Travel Page</Link>
                             </Menu.Item>
                             <Menu.Menu position='right'>
