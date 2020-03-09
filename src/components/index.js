@@ -6,7 +6,7 @@ import {
 } from './action';
 import HomePage from './homePage/index';
 import TravelCreate from './travelCreate/index';
-import TravelPage from './travelIndex/index';
+import TravelPage from './travelPage/index';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom"
 
 class MainIndex extends Component {
